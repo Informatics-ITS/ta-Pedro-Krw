@@ -1,17 +1,16 @@
 # 🏁 Tugas Akhir (TA) - Final Project
 
-**Nama Mahasiswa**: [Nama Lengkap]  
-**NRP**: [Nomor Registrasi Pokok]  
-**Judul TA**: [Judul Tugas Akhir]  
-**Dosen Pembimbing**: [Nama Dosen]  
-**Dosen Ko-pembimbing**: [Nama Dosen]
+**Nama Mahasiswa**: Pedro T Korwa 
+**NRP**: 05111940007003  
+**Judul TA**: Rancang Bangun Prototipe Aplikasi Android untuk Optimalisasi Pengarsipan Data di Daerah Tertinggal dengan Fitur Otentikasi Pengguna, Manajemen Metadata, dan Penyimpanan Offline Menggunakan Pendekatan Jetpack Compose
+**Dosen Pembimbing**: Fajar Baskoro, S.Kom., M.T.Sc Ph.D.  
+**Dosen Ko-pembimbing**: Dr. Yudhi Purwananto, S.Kom., M.Kom.
 
 ---
 
 ## 📺 Demo Aplikasi  
-Embed video demo di bawah ini (ganti `VIDEO_ID` dengan ID video YouTube Anda):  
+[![Demo Aplikasi](https://i.postimg.cc/jqwfFRRX/Group-11.png)](https://www.youtube.com/watch?v=Z6_A1DUEIsM&ab_channel=JoshGultom)  
 
-[![Demo Aplikasi](https://i.ytimg.com/vi/zIfRMTxRaIs/maxresdefault.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)  
 *Klik gambar di atas untuk menonton demo*
 
 ---
@@ -21,55 +20,44 @@ Embed video demo di bawah ini (ganti `VIDEO_ID` dengan ID video YouTube Anda):
 ## 🛠 Panduan Instalasi & Menjalankan Software  
 
 ### Prasyarat  
-- Daftar dependensi (contoh):
-  - Python 3.10+
-  - Node.js v18+
-  - MySQL 8.0
-  - [Lainnya...]
+- Daftar dependensi:
+  - Android Studio
+  - Gradle
+  - JDK 17+
+  - Perangkat atau Emulator Android
+  - Kotlin
 
 ### Langkah-langkah  
 1. **Clone Repository**  
    ```bash
-   git clone https://github.com/Informatics-ITS/TA.git
+   git clone https://github.com/Informatics-ITS/ta-Pedro-Krw.git
    ```
-2. **Instalasi Dependensi**
-   ```bash
-   cd [folder-proyek]
-   pip install -r requirements.txt  # Contoh untuk Python
-   npm install  # Contoh untuk Node.js
+2. **Buka Proyek di Android Studio**
+   - Buka Android Studio → File > Open → pilih folder hasil clone
+   - Tunggu hingga Gradle sync selesai
+3. **Instalasi Dependensi (Gradle)**
+   - Biasanya otomatis saat Gradle sync
+   - Atau klik `Refresh` di panel Gradle → atau jalankan manual:
    ```
-3. **Konfigurasi**
-- Salin/rename file .env.example menjadi .env
-- Isi variabel lingkungan sesuai kebutuhan (database, API key, dll.)
+   ./gradlew build
+   ```
 4. **Jalankan Aplikasi**
-   ```bash
-   python main.py  # Contoh untuk Python
-   npm start      # Contoh untuk Node.js
-   ```
-5. Buka browser dan kunjungi: `http://localhost:3000` (sesuaikan dengan port proyek Anda)
+   - Pilih emulator/device
+   - Lalu tekan tombol Run (▶️) di Android Studio
 
 ---
 
-## 📚 Dokumentasi Tambahan
+## ✅ Arsip Lengkap Tugas Akhir
 
-- [![Dokumentasi API]](docs/api.md)
-- [![Diagram Arsitektur]](docs/architecture.png)
-- [![Struktur Basis Data]](docs/database_schema.sql)
+Dokumen lengkap terkait Tugas Akhir dapat ditemukan pada tautan berikut.
 
----
-
-## ✅ Validasi
-
-Pastikan proyek memenuhi kriteria berikut sebelum submit:
-- Source code dapat di-build/run tanpa error
-- Video demo jelas menampilkan fitur utama
-- README lengkap dan terupdate
-- Tidak ada data sensitif (password, API key) yang ter-expose
+[[Google Drive]](https://drive.google.com/drive/folders/164gFQN-ACiG2QkLfbNnsAXoV5BtPaxQR?usp=sharing)
 
 ---
 
 ## ⁉️ Pertanyaan?
 
 Hubungi:
-- Penulis: [email@mahasiswa]
-- Pembimbing Utama: [email@pembimbing]
+- Penulis: 05111940007003@student.its.ac.id
+- Pembimbing Utama: yudhi@if.its.ac.id
+- Ko-Pembimbing:  fajar@its.ac.id
