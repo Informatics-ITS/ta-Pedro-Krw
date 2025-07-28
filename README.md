@@ -51,7 +51,7 @@
 
 Dokumen lengkap terkait Tugas Akhir dapat ditemukan pada tautan berikut.
 
-[[Google Drive]](https://drive.google.com/drive/folders/164gFQN-ACiG2QkLfbNnsAXoV5BtPaxQR?usp=sharing)
+[[Google Drive]](https://drive.google. isi url Gdrive)
 
 ---
 
